@@ -1,0 +1,54 @@
+
+
+.input-container{
+    height: 170px;
+    background-color: #00ADEF;
+    text-align: center;
+    
+}
+div h1 {
+    position: relative;
+    top: 10px;
+
+}
+.input-display{
+    font-size: 15px;
+    margin: 40px;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    bottom: 4px;
+    color: #58C7F3;
+    background-color: black;
+   
+    
+    
+}
+.img{
+    margin-top: 90px;
+    margin-left: 55px;
+} 
+.details{
+    margin-left: 55px;
+   color: #FFFFFF
+; 
+
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.btn{
+    margin-right: 16px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 25px;
+    border: none;
+    background-color: #58C7F3;
+    
+    
+}
+.btn:hover{
+    background-color: rgb(104, 144, 177);
+}
