@@ -5,6 +5,8 @@
     background-color: #00ADEF;
     text-align: center;
     
+    
+    
 }
 div h1 {
     position: relative;
@@ -39,6 +41,7 @@ div h1 {
     
 }
 .btn{
+    position: fixed;
     margin-right: 16px;
     padding: 8px 20px;
     border-radius: 10px;

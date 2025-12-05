@@ -15,6 +15,11 @@ getMovieByTitle(title: string): Observable<any> {
   return this.http.get(`${this.apiUrl}&t=${title}`);
 }
 
+getMovieList(title: string): Observable<any> {
+  return this.http.get(`${this.apiUrl}&s=${title}`);
+}
+
+
 
   
 }

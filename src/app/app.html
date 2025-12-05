@@ -4,26 +4,33 @@
 <input class="input-display" type="text" (input)="inputValue($event)" placeholder="Enter movie name here..">
 <button class="btn" (click)="getMovie()">Search</button>
 </div>
-@if(movieName){
+
+
+@if(movieList){
  
   <div>
-    <img class="img" [src]="movieName.Poster" width="300" height="400px">
+    @for(m of movieList; track m){
+    <img class="img" [src]="m.Poster" width="300" height="400px">
     <pre> 
-       <h2 class="details"><b>Title: </b>{{ movieName.Title }}</h2>
+       <h2 class="details"><b>Title: </b>{{ m.Title }}</h2>
     </pre>
    
-    <p class="details"> Year: {{ movieName.Year }}</p>
-    <p class="details">Rated: {{ movieName.Rated }}</p>
-    <p class="details">Released: {{ movieName.Released }}</p>
-    <p class="details">Runtime: {{ movieName.Runtime }}</p>
+    <p class="details"> Year: {{ m.Year }}</p>
+  
     <br>
     <hr>
+    }
   </div>
  
-}@else{
-  <div>
- 
-  </div>
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
