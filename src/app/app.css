@@ -11,6 +11,7 @@
 div h1 {
     position: relative;
     top: 10px;
+    margin-right: 40px;
 
 }
 .input-display{
@@ -23,26 +24,15 @@ div h1 {
     bottom: 4px;
     color: #58C7F3;
     background-color: black;
+    margin-right: 70px;
    
     
     
 }
-.img{
-    margin-top: 90px;
-    margin-left: 55px;
-} 
-.details{
-    margin-left: 55px;
-   color: #FFFFFF
-; 
-
-    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
+ 
 .btn{
     position: fixed;
-    margin-right: 16px;
+    margin-right: 50px;
     padding: 8px 20px;
     border-radius: 10px;
     position: relative;

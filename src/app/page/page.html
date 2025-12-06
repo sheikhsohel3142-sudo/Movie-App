@@ -1,11 +1,6 @@
-@if(movieList){
-  <div class="list-container">
-    <div *ngFor="let m of movieList" class="card">
-      <img [src]="m.Poster" width="100">
-      <div>
-        <h3>{{ m.Title }}</h3>
-        <p>{{ m.Year }}</p>
-      </div>
-    </div>
+@for(m of movie; track m){
+  <div >
+    <img [src] = "m.Poster"class="img"  width="200" height="300px" alt="m.Title">
+    <p class="details"><b>{{m.Title}}</b> {{m.Year}}</p>
   </div>
 }

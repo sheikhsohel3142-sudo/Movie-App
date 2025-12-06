@@ -1,13 +1,13 @@
-import { NgFor } from '@angular/common';
-import { Component } from '@angular/core';
+import { NgFor, NgClass } from '@angular/common';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-page',
-  imports: [NgFor],
+  selector: 'app-listing',
+  imports: [NgClass],
   templateUrl: './page.html',
   styleUrl: './page.css',
 })
 export class Page {
-movieList: any;
+  @Input() movie:any[] = [];
 
 }
